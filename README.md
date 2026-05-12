@@ -47,39 +47,8 @@ The model includes:
 
 ## Vehicle Dynamics Equations
 
-Longitudinal Dynamics
+<img width="373" height="338" alt="Screenshot 2026-05-12 at 12 31 30" src="https://github.com/user-attachments/assets/d23d3821-fc3d-458a-918c-a39ca1797f52" />
 
-\sum F_x
-=
-m(\dot v_x-rv_y)
--
-m_s h_s \dot\phi r
-
-Lateral Dynamics
-
-\sum F_y
-=
-m(\dot v_y-rv_x)
-+
-m_s h_s \ddot\phi
-
-Yaw Dynamics
-
-\sum M_z
-=
-I_z \dot r
--
-I_{xz}\ddot\phi
-
-Roll Dynamics
-
-\sum M_x
-=
-I_x\ddot\phi
--
-I_{xz}\dot r
-+
-m_s h_s(\dot v_y+r v_x)
 
 The coupled nonlinear equations are solved simultaneously using matrix inversion.
 
