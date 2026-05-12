@@ -5,8 +5,6 @@ Nonlinear rhombic vehicle dynamics model implemented in MATLAB/Simulink based on
 Huang Zhi, Zhong Zhihua
 Analysis of Steering Dynamics of Rhombic New Concept Car
 
-⸻
-
 ## Features
 
 * Nonlinear coupled vehicle body dynamics
@@ -18,8 +16,6 @@ Analysis of Steering Dynamics of Rhombic New Concept Car
 * Fully signal-based Simulink implementation
 * Suitable for controller development, AV research, and nonlinear vehicle dynamics analysis.
 
-⸻
-
 ## Vehicle Configuration
 
 The vehicle uses a rhombic wheel layout:
@@ -29,8 +25,6 @@ The vehicle uses a rhombic wheel layout:
 * 1 rear wheel
 
 The middle wheels are responsible for lateral load transfer.
-
-⸻
 
 ## Dynamic States
 
@@ -43,16 +37,12 @@ The model includes:
 * Roll rate phi_dot
 * Wheel angular velocities w1 w2 w3 w4
 
-⸻
-
 ## Vehicle Dynamics Equations
 
 <img width="373" height="338" alt="Screenshot 2026-05-12 at 12 31 30" src="https://github.com/user-attachments/assets/d23d3821-fc3d-458a-918c-a39ca1797f52" />
 
 
 The coupled nonlinear equations are solved simultaneously using matrix inversion.
-
-⸻
 
 ## Tire Model
 
@@ -69,8 +59,6 @@ are computed from:
 * slip angle
 * vertical load
 
-⸻
-
 ## Dynamic Vertical Loads
 
 Dynamic wheel loads are calculated separately.
@@ -85,8 +73,6 @@ A Memory block is used in Simulink to avoid algebraic loops caused by:
 * tire force feedback
 * vertical load feedback
 * lateral acceleration coupling
-
-⸻
 
 ## Initial Conditions
 
@@ -110,8 +96,6 @@ This ensures:
 * zero initial slip ratio
 * numerically stable startup conditions
 
-⸻
-
 ## Notes
 
 * All parameters are implemented as Simulink input signals
@@ -128,9 +112,7 @@ This ensures:
     * Autonomous Vehicle Research
     * Nonlinear Vehicle Dynamics Analysis
 
-⸻
-
-Reference
+## Reference
 
 Huang Zhi, Zhong Zhihua,
 Analysis of Steering Dynamics of Rhombic New Concept Car,
