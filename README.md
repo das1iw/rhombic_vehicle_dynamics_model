@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Rhombic Vehicle Nonlinear Dynamics Model
 
 Nonlinear rhombic vehicle dynamics model implemented in MATLAB/Simulink based on:
@@ -169,7 +168,4 @@ Analysis of Steering Dynamics of Rhombic New Concept Car,
 Journal of Hunan University, 2006.
 
 Copyright (c) 2026 Dastan
-=======
-# rhombic_vehicle_dynamics_model
-Nonlinear rhombic vehicle dynamics model implemented in MATLAB/Simulink.
->>>>>>> 1b0c184c2136dd8fd7006bc30b1ede26508559e2
+
