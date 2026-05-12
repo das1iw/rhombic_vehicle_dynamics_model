@@ -92,14 +92,14 @@ A Memory block is used in Simulink to avoid algebraic loops caused by:
 
 Initial Longitudinal Speed
 
-v_{x0}=5\ m/s
+v_x0=5 m/s
 
 This value is assigned as the initial condition of the longitudinal velocity integrator.
 
 
 Initial wheel angular velocity is computed from the pure rolling condition:
 
-\omega_0=\frac{v_{x0}}{R_w} (10)
+w_0=v_x/R_w (10 rad/s)
 
 where:
 
